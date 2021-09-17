@@ -1,0 +1,132 @@
+<div class="container-fluid my-5">
+    <div class="row mx-4">
+            <div class="col-sm-6 col-md-4 col-lg-3 px-0 first" *ngFor="let bath of bathProducts">
+                <div class="card px-0">
+                    <i  class="fas fa-search"></i>
+
+                    <div class="content container ">
+                        <div class="row py-0 my-0">
+                            <div class="col-6 p-0">
+                                <img [src]="bath.productImg">
+                            </div>
+                            <div class="col-6 content-body pt-5">
+                                <i class="fas fa-times"></i>
+                                <div><span>متاح</span></div>
+                                <div class="mt-5">
+                                    <strong>{{bath.productName}}</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img [src]="bath.productImg">
+                    <div class="card-body p-2">
+                        <p class="card-text">{{bath.productName}}</p>
+                        <button class="btn row bg-light">
+                            <span class="col-4"> EGP {{bath.productCount}}</span>
+                        </button>
+                        <a href="#" class="btn" routerLink="/buynow">اشتري الأن</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-6 col-md-4 col-lg-3 px-0 second" *ngFor="let bathpt of bathProductsPageTwo">
+                <div class="card px-0">
+                    <i  class="fas fa-search"></i>
+                    <div class="content container ">
+                        <div class="row py-0 my-0">
+                            <div class="col-6 p-0">
+                                <img [src]="bathpt.imgTwo">
+                            </div>
+                            <div class="col-6 content-body pt-5">
+                                <i class="fas fa-times"></i>
+                                <div><span>متاح</span></div>
+                                <div class="mt-5">
+                                    <strong>{{bathpt.nameTwo}}</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img [src]="bathpt.imgTwo">
+                    <div class="card-body p-2">
+                        <p class="card-text">{{bathpt.nameTwo}}</p>
+                        <button class="btn row bg-light">
+                            <span class="col-4"> EGP {{bathpt.countTwo}}</span>
+                        </button>
+                        <a href="#" class="btn" routerLink="/buynow">اشتري الأن</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 px-0 third" *ngFor="let bathpthree of bathProductsPageThree">
+                <div class="card px-0">
+                    <i  class="fas fa-search"></i>
+                    <div class="content container ">
+                        <div class="row py-0 my-0">
+                            <div class="col-6 p-0">
+                                <img [src]="bathpthree.imgthree">
+                            </div>
+                            <div class="col-6 content-body pt-5">
+                                <i class="fas fa-times"></i>
+                                <div><span>متاح</span></div>
+                                <div class="mt-5">
+                                    <strong>{{bathpthree.namethree}}</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img [src]="bathpthree.imgthree">
+                    <div class="card-body p-2">
+                        <p class="card-text">{{bathpthree.namethree}}</p>
+                        <button class="btn row bg-light">
+                            <span class="col-4"> EGP {{bathpthree.countthree}}</span>
+                        </button>
+                        <a href="#" class="btn" routerLink="/buynow">اشتري الأن</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="container pagination py-3">
+    <nav class="mx-auto text-center p-0">
+        <ul class="pagination pagination-sm p-0">
+          <li class="page-item"><button class="page-link">1</button></li>
+          <li class="page-item"><button class="page-link">2</button></li>
+          <li class="page-item"><button class="page-link">3</button></li>
+          <li class="page-item"><button class="page-link">4</button></li>
+          <li class="page-item"><button class="page-link">5</button></li>
+          <li class="page-item"><button class="page-link">6</button></li>
+          <li class="page-item"><button class="page-link">7</button></li>
+          <li class="page-item"><button class="page-link">8</button></li>
+          <li class="page-item"><button class="page-link">9</button></li>
+        </ul>
+    </nav>
+</div>
+
+  
+
+<style>
+   .content{
+        position: absolute;
+        top: 10%;
+        right:0%;
+        transform: translate(-10%,10%);
+    }
+    .content{
+        width:1000px;z-index:1000;height:400px;opacity:0;visibility:hidden;
+        background-image:linear-gradient(to bottom,#fff,#eee);border-radius:5px;
+        transition:1s ease-in;text-align:right;
+    }
+    .content-body span{background:#12A05C;color:#fff;width:auto;padding:3px 10px;border-radius:30px;
+        font-size:12px;font-weight:500;}
+    .content-body div strong{font-size:30px;margin-top:30px;}
+    .content .row div img{height:400px;margin:0px;width:100%;}
+    .fa-times{font-weight:bold;color:#d90429;font-size:20px;}
+</style>

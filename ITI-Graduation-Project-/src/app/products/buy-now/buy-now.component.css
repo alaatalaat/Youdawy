@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500&display=swap");
+*{font-family: "Tajawal", sans-serif !important;}
+
+.buy {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin: 100px 0;
+}
+
+ul {
+  margin-top: 200px;
+}
+
+ul.frist {
+  text-align: right;
+  direction: rtl;
+}
+
+ul.frist li {
+  text-align: right;
+  direction: rtl;
+}
+
+.linkApp {
+  text-align: center;
+}
+
+.linkApp a {
+  margin-right: 50px;
+}

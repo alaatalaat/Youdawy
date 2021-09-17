@@ -1,0 +1,14 @@
+.footer-one{background:#12233F;font-family: 'Tajawal', sans-serif !important;direction:rtl;}
+.footer-one .row div{text-align:right;}
+.footer-one .row div ul li{list-style-type:none;}
+.footer-one .row div ul li{padding: 5px 0px;}
+.footer-one .row div ul li a{color:#fff;text-decoration:none;font-size:20px;}
+.footer-one .row div h1{font-family: 'Tajawal', sans-serif !important}
+
+.footer-two{background:#12233F;font-family: 'Tajawal' !important;direction:rtl;}
+.footer-two .row div{text-align:right;}
+.footer-two .row div h2{color:#FF9923}
+.footer-two .row div .fab{color:#9BABCD}
+.footer-two .row div:nth-child(2) h4{color:#FF9923}
+.footer-two .row div:nth-child(2) a img{margin:10px}
+ul{padding:0px;}

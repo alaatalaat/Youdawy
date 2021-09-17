@@ -1,0 +1,144 @@
+[
+    {
+        "idTwo": 1,
+        "nameTwo": "برايت لوفة حمام بوجهين للمساج , حجم كبير",
+        "countTwo": 48,
+        "imgTwo": "../../assets/bath/pagetwo/1.jpg"
+    },
+    {
+        "idTwo": 2,
+        "nameTwo": "برايت لوفة ناتشورال مساج وجهين، صغيرة",
+        "countTwo": 25,
+        "imgTwo": "../../assets/bath/pagetwo/2.jpg"
+    },
+    {
+        "idTwo": 3,
+        "nameTwo": "برايت ناتشورال مساج لوفه وجه واحد",
+        "countTwo": 10.5,
+        "imgTwo": "../../assets/bath/pagetwo/3.jpg"
+    },
+    {
+        "idTwo": 4,
+        "nameTwo": "برايت ناتشورال مساج لوفه وجه واحد",
+        "countTwo": 12.5,
+        "imgTwo": "../../assets/bath/pagetwo/4.jpg"
+    },
+
+    {
+        "idTwo": 5,
+        "nameTwo": "برايت ناتشورال مساج لوفه وجه واحد، صغير",
+        "countTwo": 15,
+        "imgTwo": "../../assets/bath/pagetwo/5.jpg"
+    },
+
+    {
+        "idTwo":6 ,
+        "nameTwo": "برايت ناتشورال مساج لوفه وجه واحد، كبير",
+        "countTwo": 13,
+        "imgTwo": "../../assets/bath/pagetwo/6.jpg"
+    },
+
+    {
+        "idTwo": 7,
+        "nameTwo": "برايت ناتشورال مساج لوفه وجهين",
+        "countTwo": 16.5,
+        "imgTwo": "../../assets/bath/pagetwo/7.jpg"
+    },
+
+    {
+        "idTwo":8 ,
+        "nameTwo": "برايت ناتشورال مساج لوفه وجهين",
+        "countTwo": 20.5,
+        "imgTwo": "../../assets/bath/pagetwo/8.jpg"
+    },
+
+    {
+        "idTwo": 9,
+        "nameTwo": "بيبي كير مناديل مبللة بغطاء بلاستيكي، 80 قطعة",
+        "countTwo": 19,
+        "imgTwo": "../../assets/bath/pagetwo/9.jpg"
+    },
+
+    {
+        "idTwo": 10,
+        "nameTwo":"بيرز صابون بالجليسرين و الليمون, 125 جم" ,
+        "countTwo": 35.5,
+        "imgTwo": "../../assets/bath/pagetwo/10.jpg"
+    },
+
+    {
+        "idTwo": 11,
+        "nameTwo": "بيرز صابون شفاف, 125 جم",
+        "countTwo": 63,
+        "imgTwo": "../../assets/bath/pagetwo/11.jpg"
+    },
+
+    {
+        "idTwo": 12,
+        "nameTwo": "بيه بيه صابون ,500 مل",
+        "countTwo": 35,
+        "imgTwo": "../../assets/bath/pagetwo/12.jpg"
+    },
+
+    {
+        "idTwo": 13,
+        "nameTwo": "بيه بيه هيدرا كالم غسول للجسم، 500 مل",
+        "countTwo": 23.5,
+        "imgTwo": "../../assets/bath/pagetwo/13.jpg"
+    },
+
+    {
+        "idTwo": 14,
+        "nameTwo": "توبيكريم جل منظف للجسم و الشعر, 500 مل",
+        "countTwo": 22,
+        "imgTwo": "../../assets/bath/pagetwo/14.jpg"
+    },
+
+    {
+        "idTwo": 15,
+        "nameTwo": "جليسوليد سائل الاستحمام الكلاسيك بالجليسرين, 300 مل",
+        "countTwo": 12,
+        "imgTwo": "../../assets/bath/pagetwo/15.jpg"
+    },
+
+    {
+        "idTwo": 16,
+        "nameTwo": "جليسوليد سائل الاستحمام بزيت الزيتون, 300 مل",
+        "countTwo": 11,
+        "imgTwo": "../../assets/bath/pagetwo/16.jpg"
+    },
+    {
+        "idTwo": 17,
+        "nameTwo": "جونسون غسول الجسم فيتا - سموذي غني بالزبادي والعسل والشوفان ، 250 مل",
+        "countTwo": 1,
+        "imgTwo": "../../assets/bath/pagetwo/17.jpg"
+    },
+
+    {
+        "idTwo": 18,
+        "nameTwo": "جونسون مناديل منظفة ترطيب منعش للبشرة عادية, عبوة 25 منديل",
+        "countTwo": 19,
+        "imgTwo": "../../assets/bath/pagetwo/18.jpg"
+    },
+
+    {
+        "idTwo": 19,
+        "nameTwo": "دوف صابونة للترطيب و التفتيح, 100 جم",
+        "countTwo": 18,
+        "imgTwo": "../../assets/bath/pagetwo/19.jpg"
+    },
+
+    {
+        "idTwo": 20,
+        "nameTwo": "ديتول سائل مطهر, 750 مل",
+        "countTwo": 14,
+        "imgTwo": "../../assets/bath/pagetwo/20.jpg"
+    },
+    {
+        "idTwo": 21,
+        "nameTwo": "ديتول صابون سائل للعناية بالبشرة و مضاد للبكتريا, 250 مل",
+        "countTwo": 22.5,
+        "imgTwo": "../../assets/bath/pagetwo/21.png"
+    }
+    
+]

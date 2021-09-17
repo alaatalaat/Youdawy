@@ -1,0 +1,192 @@
+<div class="container-fluid pt-5 footer-one">
+    <div class="row mx-1">
+        <div class="col-sm-12 col-md-3">
+            <ul>
+                <li><a href="#">مستلزمات الاستحمام</a></li>
+                <li><a href="#">مستلزمات الاطفال</a></li>
+                <li><a href="#">عالم المرأة</a></li>
+                <li><a href="#">العناية بالشعر</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-12 col-md-3">
+            <ul>
+                <li><a href="#">مستحضرات التجميل</a></li>
+                <li><a href="#">منتجات التجميل الطبية</a></li>
+                <li><a href="#">مستلزمات الرجال</a></li>
+                <li><a href="#">العناية بالفم</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-12 col-md-3">
+            <ul>
+                <li><a href="#">الصحة الجنسية</a></li>
+                <li><a href="#">العناية الشخصية</a></li>
+                <li><a href="#">عدسات لاصقة</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-12 col-md-3 text-white">
+            <ul>
+                <p>هل تريد مساعدة ؟</p>
+                <h1>15005</h1>
+                <p>نحن في خدمتكم 7  أيام في الأسبوع لمدة  24 ساعة!</p>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid footer-two pb-5">
+    <div class="row mx-1">
+        <div class="col-sm-12 col-md-6">
+                <h2>تواصل معنا </h2>
+                <a href="#">
+                    <span class="con-tooltip">
+                        <p><i class="fab fa-linkedin-in m-2"></i></p>
+                        <span class="tooltip text-center">
+                            <span>Linkedin</span>
+                        </span>
+                    </span>
+                </a>
+                <a href="#">
+                    <span class="con-tooltip-insta">
+                        <p><i class="fab fa-instagram m-2"></i></p>
+                        <span class="tooltip-insta text-center">
+                            <span>Instagram</span>
+                        </span>
+                    </span>
+                </a>
+                <a href="#">
+                    <span class="con-tooltip-facebook">
+                        <p><i class="fab fa-facebook-f m-2"></i></p>
+                        <span class="tooltip-facebook text-center">
+                            <span>Facebook</span>
+                        </span>
+                    </span>
+                </a>
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <h4>حمل تطبيق شفاء :</h4>
+            <a href="#"><img src="../../assets/google-187x55.png" alt=""></a>
+            <a href="#"><img src="../../assets/app-store-164x55.png" alt=""></a>
+        </div>
+    </div>
+</div>
+
+<style>
+        /*tooltip Linkedin Box*/
+        .con-tooltip {
+        position: relative;
+        display: inline-block;
+        transition: all 0.3s ease-in-out;
+        }
+        /*tooltip Linkedin*/
+        .tooltip{
+        visibility: hidden;
+        z-index: 1;
+        opacity: .40;
+        width: 70px;height:auto;
+        padding: 0px 0px;
+        background: #176DBA;
+        color: #fff;
+        position: absolute;
+        top:-79.5%;
+        right: -15px;
+        font: 14px;
+        transform: translateY(9px);
+        transition: all 0.3s ease-in-out;
+        }
+        /* tooltip  after Linkedin*/
+        .tooltip::after {
+        content: " ";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 12px 12.5px 0 12.5px;
+        border-color: #176DBA transparent transparent transparent;
+        position: absolute;
+        left: 40%;
+        bottom:-60%
+        }
+        .con-tooltip:hover .tooltip{
+        visibility: visible;opacity: 1;
+        }
+        /* ------------------------------------------ */
+        /*tooltip Instagram Box*/
+        .con-tooltip-insta {
+        position: relative;
+        display: inline-block;
+        transition: all 0.3s ease-in-out;
+        }
+        /*tooltip Instagram */
+        .tooltip-insta{
+        visibility: hidden;
+        z-index: 1;
+        opacity: .40;
+        width: auto;height:auto;
+        padding: 0px 5px;
+        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+        color: #fff;
+        position: absolute;
+        top:-79%;
+        right: -23px;
+        font: 14px;
+        transform: translateY(9px);
+        transition: all 0.3s ease-in-out;
+        }
+        /* tooltip  after Instagram*/
+        .tooltip-insta::after {
+        content: " ";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 12px 12.5px 0 12.5px;
+        border-color: #dc2743 transparent transparent transparent;
+        position: absolute;
+        left: 40%;
+        bottom:-50%
+        }
+        .con-tooltip-insta:hover .tooltip-insta{
+        visibility: visible;opacity: 1;
+        }
+        
+        
+        /* --------------------- */
+        
+        /*tooltip Box Facebook*/
+        .con-tooltip-facebook{
+        position: relative;
+        display: inline-block;
+        transition: all 0.3s ease-in-out;
+        }
+        /*tooltip Facebook*/
+        .tooltip-facebook{
+        visibility: hidden;
+        z-index: 1;
+        opacity: .40;
+        width: auto;height:auto;
+        padding: 0px 5px;
+        background: #3B5998;;
+        color: #fff;
+        position: absolute;
+        top:-79%;
+        right: -23px;
+        font: 14px;
+        transform: translateY(9px);
+        transition: all 0.3s ease-in-out;
+        }
+        /* tooltip  after Facebook*/
+        .tooltip-facebook::after {
+        content: " ";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 12px 12.5px 0 12.5px;
+        border-color: #3B5998 transparent transparent transparent;
+        position: absolute;
+        left: 40%;
+        bottom:-50%
+        }
+        .con-tooltip-facebook:hover .tooltip-facebook{
+        visibility: visible;opacity: 1;
+        }
+</style>

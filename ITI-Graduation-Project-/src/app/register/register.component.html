@@ -1,0 +1,67 @@
+<div class="content">
+  <form class="" [formGroup]="signUpForm" (ngSubmit)="getFormData(signUpForm)">
+    <div class="container">
+
+      <div class="row mt-5">
+        <div class="col-lg-10 col-12">
+          <input type="text" formControlName="first_name"/>
+          <span *ngIf="signUpForm.controls.first_name.invalid && signUpForm.controls.first_name.touched" >الاسم الاول مطلوب!</span>
+        </div>
+        <div class="col-lg-2 col-12">
+          <h5>الاسم الاول</h5>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-lg-10 col-12">
+          <input type="text" name="lname" formControlName="last_name"
+          />
+          <span *ngIf="signUpForm.controls.last_name.invalid && signUpForm.controls.last_name.touched" >الاسم الاخير مطلوب</span>
+        </div>
+        <div class="col-lg-2 col-12">
+          <h5>الاسم الاخير</h5>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-lg-10 col-12">
+          <input type="text" name="age" formControlName="age"/>
+          <span *ngIf="signUpForm.controls.age.invalid && signUpForm.controls.age.touched" >مطلوب السن</span>
+        </div>
+        <div class="col-lg-2 col-12">
+          <h5> السن </h5>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-lg-10 col-12">
+          <input type="text" name="email" formControlName="email" />
+          <span *ngIf="signUpForm.controls.email.invalid && signUpForm.controls.email.touched" >مطلوب البريد الاليكتروني</span>
+        </div>
+        <div class="col-lg-2 col-12">
+          <h5>البريد الاليكتروني</h5>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-lg-10 col-12">
+          <input type="text" name="phone" formControlName="passsword" />
+          <span *ngIf="signUpForm.controls. passsword.invalid && signUpForm.controls. passsword.touched" > مطلوب ادخال الرقم السري </span>
+        </div>
+        <div class="col-lg-2 col-12">
+         <h5>الرقم السري </h5>
+        </div>
+      </div>
+      
+    </div>
+
+    <input class="mt-4" type="submit" value="التسجيل" (click)="getAlert()" [disabled]="!signUpForm.valid"  />
+    
+    <div class="row mt-4">
+      <div class="col-lg-10 col-12">
+        <span>{{msg}}</span>
+      </div> 
+    </div>
+
+  </form>
+</div>

@@ -1,0 +1,38 @@
+*{direction:rtl;}
+.card {border-radius: 0px !important;height: 380px;position:relative;}
+.fas{position:absolute;top:10px;left:10px;}
+.card img {height:170px;width:70%;margin:10px auto;}
+.card-body p{text-align:right;font-family: 'Tajawal', sans-serif !important;height:70px;
+    color:#12233F;font-weight:500;font-size:18px;}
+.card-body{text-align:center;}
+.card-body>a{background:#FF9923;color:#fff;width:80%;border-top-left-radius:0px;border-top-right-radius:0px;}
+.card-body>button{width:80%;font-weight: 500;border-radius:0px;}
+.card-body>button a{text-decoration:none;}
+
+.pagination{text-align:center;}
+.pagination nav ul li button{padding:5px 12px;border-radius: 0%;}
+button:focus{box-shadow:unset!important;}
+button>span{font-weight:bold;}
+.second,.third{display:none;}
+
+.card>.fa-search{font-weight:bold;color:#FF9923;font-size:25px;}
+.fa-search:hover{cursor:pointer}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

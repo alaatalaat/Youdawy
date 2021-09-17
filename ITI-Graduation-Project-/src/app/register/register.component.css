@@ -1,0 +1,43 @@
+.content{
+    background:  #02408a;
+    /* height: 100vh; */
+    height: auto;
+    padding-top: 80px;padding-bottom: 100px;
+}
+form{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+a{
+    color: #fff;
+}
+input[type=text] , input[type=password] ,input[type=email] ,input[type=number]{
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+}
+input[type=submit]{
+    border-radius: 10px;
+    width: 20%;
+    background:  #FF9923;
+    color: #000;
+}
+input[type=submit]:hover{
+    background:#FF9923 ;
+    cursor: pointer;
+}
+h5{
+    color: #fff; 
+}
+input.ng-invalid.ng-touched{
+    border : 2px solid rgb(255, 62, 62);
+}
+input.ng-valid.ng-touched{
+    border : 2px solid rgb(10, 165, 10);
+}
+span{
+    color: red;
+    font-size: 15px;
+}
